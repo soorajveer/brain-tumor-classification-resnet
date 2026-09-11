@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets (supply your own — see data/README.md)
+*.pickle
+*.pkl
+data/*.pickle
+data/*.pkl
+
+# Model weights and checkpoints
+checkpoints/
+*.pt
+*.pth
+*.pth.tar
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
